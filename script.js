@@ -12,6 +12,7 @@ const translations = {
   vi: {
     "meta.description":
       "FlashHelper kết nối sinh viên cần hỗ trợ với những sinh viên ở gần thông qua GPS và dữ liệu vị trí.",
+    "meta.title": "FlashHelper — Sự giúp đỡ luôn gần hơn bạn nghĩ",
 
     "nav.about": "Giới thiệu",
     "nav.features": "Tính năng",
@@ -28,8 +29,9 @@ const translations = {
     "hero.note": "Một cộng đồng sinh viên sẵn sàng hỗ trợ lẫn nhau.",
     "hero.float1.title": "Hỗ trợ nhanh",
     "hero.float1.description": "Kết nối trong khuôn viên trường",
+    "hero.float2.description": "Sự giúp đỡ luôn gần hơn bạn nghĩ",
 
-    "about.kicker": "THE PROBLEM & THE IDEA",
+    "about.kicker": "VẤN ĐỀ &amp; Ý TƯỞNG",
     "about.title":
       "Khi cần giúp đỡ,<br><span>người ở gần có thể là câu trả lời.</span>",
     "about.description1":
@@ -46,14 +48,14 @@ const translations = {
     "about.card3.description":
       "Trao đổi, theo dõi quá trình hỗ trợ và ghi nhận những đóng góp cho cộng đồng sinh viên.",
 
-    "value.kicker": "WHY FLASHHELPER",
-    "value.title": "Help is closer<br><span>than you think.</span>",
+    "value.kicker": "VÌ SAO CHỌN FLASHHELPER",
+    "value.title": "Sự giúp đỡ luôn gần<br><span>hơn bạn nghĩ.</span>",
     "value.description":
       "Thay vì tìm kiếm sự giúp đỡ một cách thủ công, FlashHelper tận dụng thông tin vị trí để đưa các yêu cầu hỗ trợ đến gần hơn với cộng đồng sinh viên xung quanh. Chỉ với một vài thao tác, người cần giúp đỡ có thể chia sẻ nhu cầu và kết nối với những người có khả năng hỗ trợ.",
     "value.highlight":
       "Không cần tìm kiếm khắp nơi. Sự giúp đỡ có thể bắt đầu ngay từ những người ở gần bạn.",
 
-    "features.kicker": "WHAT YOU CAN DO",
+    "features.kicker": "BẠN CÓ THỂ LÀM GÌ",
     "features.title":
       "Mọi kết nối cần thiết<br><span>trong một ứng dụng.</span>",
     "features.description":
@@ -67,11 +69,11 @@ const translations = {
     "features.card3.title": "Chat và cập nhật",
     "features.card3.description":
       "Trao đổi trực tiếp, nhận thông báo và theo dõi trạng thái của yêu cầu.",
-    "features.card4.title": "Reward Points",
+    "features.card4.title": "Điểm thưởng",
     "features.card4.description":
       "Ghi nhận những đóng góp thông qua hệ thống điểm thưởng của FlashHelper.",
 
-    "how.kicker": "HOW IT WORKS",
+    "how.kicker": "CÁCH HOẠT ĐỘNG",
     "how.title": "Bạn cần giúp,<br>hay muốn giúp?",
     "how.description":
       "FlashHelper kết nối hai vai trò trong cùng một cộng đồng: người cần hỗ trợ và người sẵn sàng giúp đỡ.",
@@ -91,7 +93,7 @@ const translations = {
     "how.helper.step3":
       "Hoàn thành hoạt động hỗ trợ và nhận điểm thưởng.",
 
-    "preview.kicker": "APP PREVIEW",
+    "preview.kicker": "GIAO DIỆN ỨNG DỤNG",
     "preview.title":
       "Từng thao tác<br><span>đều được thiết kế đơn giản.</span>",
     "preview.description":
@@ -101,24 +103,25 @@ const translations = {
     "preview.location": "Chọn địa điểm",
     "preview.detail": "Chi tiết yêu cầu",
     "preview.chat": "Trò chuyện",
-    "preview.points": "Reward Points",
+    "preview.points": "Điểm thưởng",
     "preview.note":
       "Một số màn hình từ bản thiết kế UI/UX của FlashHelper.",
 
-    "cta.kicker": "EXPLORE FLASHHELPER",
+    "cta.kicker": "KHÁM PHÁ FLASHHELPER",
     "cta.title":
       "Một lời đề nghị.<br>Một sự giúp đỡ.<br><span>Một cộng đồng.</span>",
     "cta.description":
       "Tìm hiểu thêm về ý tưởng, quá trình thiết kế và trải nghiệm prototype của FlashHelper.",
-    "cta.status": "Project Status: In Development",
+    "cta.status": "Trạng thái dự án: Đang phát triển",
     "cta.statusDescription":
       "FlashHelper hiện đang trong quá trình phát triển. Bạn có thể khám phá bản thiết kế UI/UX và prototype tương tác.",
-    "cta.figma": "Explore Figma Prototype",
-    "cta.behance": "View Behance Case Study",
+    "cta.figma": "Khám phá prototype trên Figma",
+    "cta.behance": "Xem case study trên Behance",
 
     "footer.tagline":
-      "Bringing students closer through small acts of kindness.",
-    "footer.backToTop": "Back to top ↑",
+      "Gắn kết sinh viên qua những hành động tử tế nhỏ bé.",
+    "footer.backToTop": "Về đầu trang ↑",
+    "footer.copyright": "Dự án sinh viên.",
 
     "images.home": "Giao diện trang chủ FlashHelper",
     "images.createRequest": "Màn hình tạo yêu cầu hỗ trợ trên FlashHelper",
@@ -126,12 +129,13 @@ const translations = {
     "images.helperDetail": "Màn hình chi tiết yêu cầu dành cho người hỗ trợ",
     "images.chat": "Màn hình trò chuyện",
     "images.points": "Màn hình điểm thưởng",
-    "images.banner": "FlashHelper project banner"
+    "images.banner": "Banner dự án FlashHelper"
   },
 
   en: {
     "meta.description":
       "FlashHelper connects students who need help with nearby students through GPS and location-based services.",
+    "meta.title": "FlashHelper — Help is closer than you think",
 
     "nav.about": "About",
     "nav.features": "Features",
@@ -148,8 +152,9 @@ const translations = {
     "hero.note": "A student community ready to support one another.",
     "hero.float1.title": "Quick Support",
     "hero.float1.description": "Connect across campus",
+    "hero.float2.description": "Help is closer than you think",
 
-    "about.kicker": "THE PROBLEM & THE IDEA",
+    "about.kicker": "THE PROBLEM &amp; THE IDEA",
     "about.title":
       "When you need help,<br><span>someone nearby may have the answer.</span>",
     "about.description1":
@@ -239,6 +244,7 @@ const translations = {
     "footer.tagline":
       "Bringing students closer through small acts of kindness.",
     "footer.backToTop": "Back to top ↑",
+    "footer.copyright": "Student project.",
 
     "images.home": "FlashHelper home screen",
     "images.createRequest": "FlashHelper support request creation screen",
@@ -277,12 +283,6 @@ function setLanguage(language) {
 
   // Update document language
   document.documentElement.lang = selectedLanguage;
-
-  // Update page title
-  document.title =
-    selectedLanguage === "vi"
-      ? "FlashHelper — Help is closer than you think"
-      : "FlashHelper — Help is closer than you think";
 
   // Update translated text
   document.querySelectorAll("[data-i18n]").forEach((element) => {
@@ -349,8 +349,6 @@ const nav = document.querySelector(".nav-links");
 
 
 function closeMenu() {
-  if (!toggle || !nav) return;
-
   nav.classList.remove("open");
 
   toggle.setAttribute("aria-expanded", "false");
@@ -361,8 +359,6 @@ function closeMenu() {
 
 
 function openMenu() {
-  if (!toggle || !nav) return;
-
   nav.classList.add("open");
 
   toggle.setAttribute("aria-expanded", "true");
@@ -449,8 +445,8 @@ if ("IntersectionObserver" in window && revealElements.length > 0) {
 // 5. FOOTER YEAR
 // ========================================
 
-const copyright = document.querySelector(".copyright");
+const copyrightYear = document.querySelector(".copyright-year");
 
-if (copyright) {
-  copyright.textContent = `© ${new Date().getFullYear()} FlashHelper. Student project.`;
+if (copyrightYear) {
+  copyrightYear.textContent = new Date().getFullYear();
 }

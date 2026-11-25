@@ -6,7 +6,6 @@
 :root {
   --navy: #080b55;
   --navy-dark: #070a3d;
-  --navy-soft: #11176d;
 
   --blue: #168fe3;
   --blue-dark: #087acb;
@@ -19,12 +18,11 @@
   --violet-light: #f1edff;
 
   --text: #11143c;
-  --muted: #727a95;
+  --muted: #565e7c;
   --border: #e7edf7;
   --surface: #f6f9ff;
   --white: #ffffff;
 
-  --radius-lg: 24px;
   --shadow-card: 0 15px 40px rgba(20, 43, 100, 0.08);
   --shadow-hover: 0 22px 48px rgba(20, 43, 100, 0.13);
 }
@@ -64,14 +62,19 @@ button {
   margin-inline: auto;
 }
 
-.narrow {
-  max-width: 760px;
-}
-
 .center {
   text-align: center;
 }
 
+.center h2,
+.center p {
+  text-wrap: balance;
+}
+
+.center .section-desc {
+  max-width: 760px;
+  margin-inline: auto;
+}
 
 /* ========================================
    HEADER & NAVIGATION
@@ -137,7 +140,7 @@ button {
   display: flex;
   align-items: center;
   gap: 27px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   color: #525875;
 }
@@ -182,7 +185,6 @@ button {
   box-shadow: 0 7px 18px rgba(22, 143, 227, 0.2);
 }
 
-
 /* Language switch */
 
 .language-switch {
@@ -199,8 +201,8 @@ button {
 .language-btn {
   border: 0;
   background: transparent;
-  color: #8990a8;
-  font-size: 11px;
+  color: #69708a;
+  font-size: 13px;
   font-weight: 800;
   padding: 5px 7px;
   border-radius: 20px;
@@ -220,7 +222,7 @@ button {
 
 .language-divider {
   color: #c5cada;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .menu-toggle {
@@ -241,7 +243,6 @@ button {
   transform: scale(1.04);
 }
 
-
 /* ========================================
    BUTTONS
 ======================================== */
@@ -254,7 +255,7 @@ button {
   min-height: 46px;
   padding: 13px 20px;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   transition:
@@ -299,7 +300,6 @@ button {
   color: var(--blue-dark);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
-
 
 /* ========================================
    HERO
@@ -355,7 +355,7 @@ button {
 
 .eyebrow,
 .role-label {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 1px;
   color: var(--blue);
@@ -387,16 +387,15 @@ button {
   letter-spacing: -2.8px;
 }
 
-.hero h1 span,
-.section h2 span {
+.hero h1 span {
   color: var(--blue);
 }
 
 .hero-lead {
   max-width: 530px;
   color: #59617e;
-  font-size: 15px;
-  line-height: 1.9;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 .hero-actions {
@@ -412,7 +411,7 @@ button {
   gap: 8px;
   margin-top: 27px;
   color: #69718d;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -421,7 +420,6 @@ button {
   font-size: 17px;
   flex-shrink: 0;
 }
-
 
 /* Hero visual */
 
@@ -497,7 +495,7 @@ button {
   display: flex;
   align-items: center;
   gap: 11px;
-  max-width: 210px;
+  max-width: 235px;
   padding: 12px 15px;
   background: white;
   border: 1px solid rgba(220, 232, 248, 0.9);
@@ -509,10 +507,12 @@ button {
 .float-card b,
 .float-card small {
   display: block;
+  font-size: 12px;
+  color: #69708a;
 }
 
 .float-card b {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .float-card small {
@@ -548,7 +548,7 @@ button {
   border-radius: 50%;
   background: var(--cyan-light);
   color: var(--blue-dark);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -581,7 +581,6 @@ button {
   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
 }
 
-
 /* ========================================
    PROJECT BANNER
 ======================================== */
@@ -609,7 +608,6 @@ button {
   height: auto;
 }
 
-
 /* ========================================
    COMMON SECTIONS
 ======================================== */
@@ -621,7 +619,7 @@ button {
 .section-kicker {
   margin: 0 0 15px;
   color: var(--blue);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -647,7 +645,7 @@ button {
   border-radius: 8px;
   background: linear-gradient(135deg, var(--blue-light), var(--cyan-light));
   color: var(--blue);
-  font-size: 12px;
+  font-size: 14px;
   box-shadow: 0 3px 10px rgba(22, 143, 227, 0.08);
 }
 
@@ -675,8 +673,8 @@ button {
 
 .section-desc {
   color: var(--muted);
-  font-size: 13px;
-  line-height: 1.9;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .intro-section {
@@ -686,7 +684,6 @@ button {
 .intro-section .section-desc + .section-desc {
   margin-top: 15px;
 }
-
 
 /* ========================================
    PROBLEM & IDEA
@@ -767,7 +764,7 @@ button {
 .feature-card h3 {
   margin: 19px 0 9px;
   color: #101653;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -775,10 +772,9 @@ button {
 .feature-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
-  line-height: 1.85;
+  font-size: 15px;
+  line-height: 1.7;
 }
-
 
 /* ========================================
    VALUE PROPOSITION
@@ -809,14 +805,14 @@ button {
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
-  max-width: 620px;
+  max-width: 680px;
   margin-top: 24px;
   padding: 15px 20px;
   border: 1px solid #dcecff;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.85);
   color: #31527b;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   text-align: left;
   box-shadow: 0 8px 22px rgba(20, 43, 100, 0.035);
@@ -827,7 +823,6 @@ button {
   flex-shrink: 0;
 }
 
-
 /* ========================================
    FEATURES
 ======================================== */
@@ -837,20 +832,8 @@ button {
   background: var(--surface);
 }
 
-.section-heading {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 30px;
-  margin-bottom: 42px;
-}
-
-.side-desc {
-  max-width: 370px;
-  margin-bottom: 5px;
-}
-
 .feature-grid {
+  margin-top: 42px;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
@@ -861,7 +844,7 @@ button {
   min-width: 0;
   min-height: 225px;
   overflow: hidden;
-  padding: 24px 21px 35px;
+  padding: 24px 21px 58px;
   background: white;
   border: 1px solid #edf0f6;
   border-radius: 17px;
@@ -933,7 +916,7 @@ button {
   position: absolute;
   right: 15px;
   bottom: 5px;
-  color: #f0f3fa;
+  color: #7fb2e8;
   font-size: 34px;
   font-weight: 800;
   pointer-events: none;
@@ -941,9 +924,8 @@ button {
 }
 
 .feature-card:hover .feature-number {
-  color: #e6f2ff;
+  color: var(--blue);
 }
-
 
 /* ========================================
    HOW IT WORKS
@@ -1023,21 +1005,20 @@ button {
   align-items: flex-start;
   gap: 9px;
   color: #59617e;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.65;
 }
 
 .role-card li > span:first-child {
-  width: 23px;
-  height: 23px;
-  flex: 0 0 23px;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
   display: grid;
   place-items: center;
-  margin-top: 0;
   border-radius: 50%;
   background: white;
   color: var(--blue);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   box-shadow: 0 3px 9px rgba(22, 143, 227, 0.08);
 }
@@ -1045,7 +1026,7 @@ button {
 .role-card li .step-text {
   min-width: 0;
   display: block;
-  padding-top: 2px;
+  padding-top: 1px;
 }
 
 .role-media {
@@ -1062,11 +1043,6 @@ button {
   max-height: 270px;
   height: auto;
   object-fit: contain;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
   transition: transform 0.3s ease;
 }
 
@@ -1074,16 +1050,15 @@ button {
   transform: translateY(-5px) rotate(1deg);
 }
 
-
 /* ========================================
    APP PREVIEW
 ======================================== */
 
 .screens {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 18px;
-  align-items: start;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 44px 24px;
+  margin-top: 42px;
 }
 
 .screen-card {
@@ -1093,35 +1068,24 @@ button {
 }
 
 .screen-image {
-  min-height: 270px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  border: 0;
-  border-radius: 17px;
-  background: transparent;
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
+  transition: transform 0.25s ease;
+  height: 560px;
 }
 
 .screen-card:hover .screen-image {
   transform: translateY(-6px);
-  box-shadow: var(--shadow-card);
-  border-color: #cfe6ff;
 }
 
 .screen-image img {
   display: block;
-  width: 100%;
-  max-height: 255px;
+  width: 192px;
   object-fit: contain;
-  padding: 0;
-  border-radius: 0;
   filter: drop-shadow(0 10px 12px rgba(28, 45, 101, 0.1));
   transition: transform 0.3s ease;
+  max-width: 100%;
 }
 
 .screen-card:hover .screen-image img {
@@ -1131,18 +1095,17 @@ button {
 .screen-card figcaption {
   margin-top: 13px;
   color: #59617e;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1.5;
 }
 
 .preview-note {
   margin: 28px 0 0;
-  color: #8990a8;
-  font-size: 10px;
+  color: var(--muted);
+  font-size: 14px;
   text-align: center;
 }
-
 
 /* ========================================
    CTA
@@ -1155,9 +1118,8 @@ button {
 .cta-box {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 35px;
+  align-items: stretch;
+  gap: 30px;
   padding: 48px 55px;
   overflow: hidden;
   border-radius: 25px;
@@ -1167,6 +1129,7 @@ button {
     linear-gradient(120deg, #080b70, #105ab0 65%, #087cbf);
   color: white;
   box-shadow: 0 20px 50px rgba(8, 11, 85, 0.17);
+  flex-direction: column;
 }
 
 .cta-box::before,
@@ -1195,8 +1158,6 @@ button {
 .cta-content {
   position: relative;
   z-index: 1;
-  min-width: 0;
-  max-width: 650px;
 }
 
 .cta-box .section-kicker {
@@ -1214,7 +1175,6 @@ button {
 
 /* CTA slogan emphasis */
 .cta-box h2 span {
-  color: #78efff;
   background: none;
   -webkit-text-fill-color: #78efff;
   text-shadow: 0 0 22px rgba(32, 199, 220, 0.25);
@@ -1222,7 +1182,7 @@ button {
 
 .cta-box p:not(.section-kicker) {
   color: #e1f0ff;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -1236,7 +1196,7 @@ button {
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.11);
   color: white;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   backdrop-filter: blur(8px);
 }
@@ -1258,22 +1218,15 @@ button {
 .cta-actions {
   position: relative;
   z-index: 1;
-  min-width: 220px;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 13px;
-}
-
-.cta-actions .button {
-  width: 100%;
-  white-space: normal;
 }
 
 .cta-actions .button-white {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
-
 
 /* ========================================
    FOOTER
@@ -1293,7 +1246,7 @@ button {
 }
 
 .footer-brand {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .footer-brand img {
@@ -1304,8 +1257,12 @@ button {
 .footer-inner p,
 .footer-inner > a:last-child {
   color: #b8c2e8;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
+}
+
+.footer-inner > a:last-child {
+  white-space: nowrap;
 }
 
 .footer-inner > a:last-child:hover {
@@ -1317,40 +1274,28 @@ button {
   padding-top: 15px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   color: #a0acd8;
-  font-size: 10px;
+  font-size: 13px;
 }
-
 
 /* ========================================
    SCROLL REVEAL
 ======================================== */
 
-.reveal {
-  opacity: 1;
-  transform: none;
-}
-
 .js-reveal .reveal {
   opacity: 0;
-  transform: translateY(24px);
+  translate: 0 24px;
   transition:
     opacity 0.7s ease,
-    transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+    translate 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .js-reveal .reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  translate: 0 0;
 }
-
-/* Stagger animation for cards */
-.js-reveal .problem-card,
-.js-reveal .feature-card,
-.js-reveal .role-card,
-.js-reveal .screen-card {
-  transition-delay: var(--reveal-delay, 0ms);
-}
-
 
 /* ========================================
    KEYFRAMES
@@ -1418,19 +1363,22 @@ button {
   }
 }
 
-
 /* ========================================
    TABLET — 1100px
 ======================================== */
 
 @media (max-width: 1100px) {
+  .nav {
+    gap: 12px;
+  }
+
   .nav-right {
     gap: 14px;
   }
 
   .nav-links {
-    gap: 16px;
-    font-size: 11px;
+    gap: 14px;
+    white-space: nowrap;
   }
 
   .hero-grid {
@@ -1446,18 +1394,15 @@ button {
     font-size: 22px;
   }
 
-  .screens {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    row-gap: 28px;
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-
 /* ========================================
-   TABLET / SMALL LAPTOP — 850px
+   TABLET / SMALL LAPTOP — 900px
 ======================================== */
-
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .site-header {
     height: 70px;
   }
@@ -1466,13 +1411,42 @@ button {
     gap: 12px;
   }
 
+  .menu-toggle {
+    display: grid;
+    place-items: center;
+  }
+
   .nav-links {
-    gap: 12px;
-    font-size: 10px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 17px 22px 22px;
+    background: white;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 15px 25px rgba(16, 22, 75, 0.08);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    font-size: 16px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links > a {
+    padding: 13px 5px;
+    border-bottom: 1px solid #f1f3f8;
   }
 
   .nav-links .nav-cta {
-    padding: 10px 13px;
+    margin-top: 12px;
+    padding: 13px 16px;
+    border: 0;
+    text-align: center;
   }
 
   .hero {
@@ -1516,44 +1490,18 @@ button {
 
   .problem-grid {
     gap: 12px;
-  }
-
-  .problem-card {
-    padding: 20px;
-  }
-
-  .feature-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .role-grid {
     gap: 14px;
-  }
-
-  .role-card {
     grid-template-columns: minmax(0, 1fr);
-    gap: 18px;
-    padding: 25px;
-  }
-
-  .role-card h3 {
-    font-size: 24px;
-  }
-
-  .role-media {
-    justify-content: flex-start;
-  }
-
-  .role-media img {
-    width: 135px;
-    max-height: 240px;
   }
 
   .cta-box {
     padding: 38px 35px;
   }
 }
-
 
 /* ========================================
    MOBILE — 650px
@@ -1589,44 +1537,6 @@ button {
     gap: 10px;
   }
 
-  .menu-toggle {
-    display: grid;
-    place-items: center;
-  }
-
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 65px;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    padding: 17px 22px 22px;
-    background: white;
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 15px 25px rgba(16, 22, 75, 0.08);
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    font-size: 13px;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .nav-links > a {
-    padding: 13px 5px;
-    border-bottom: 1px solid #f1f3f8;
-  }
-
-  .nav-links .nav-cta {
-    margin-top: 12px;
-    padding: 13px 16px;
-    border: 0;
-    text-align: center;
-  }
-
   .language-switch {
     gap: 2px;
     padding: 4px 6px;
@@ -1634,9 +1544,8 @@ button {
 
   .language-btn {
     padding: 5px 6px;
-    font-size: 10px;
+    font-size: 12px;
   }
-
 
   /* Hero */
 
@@ -1658,8 +1567,7 @@ button {
 
   .hero-lead {
     max-width: 100%;
-    font-size: 13px;
-    line-height: 1.85;
+    font-size: 16px;
   }
 
   .hero-actions {
@@ -1670,12 +1578,10 @@ button {
   .hero-actions .button {
     min-height: 43px;
     padding: 12px 14px;
-    font-size: 11px;
   }
 
   .hero-note {
     align-items: flex-start;
-    font-size: 10px;
   }
 
   .hero-visual {
@@ -1715,11 +1621,11 @@ button {
   }
 
   .float-card b {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .float-card small {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .float-card-top {
@@ -1750,7 +1656,6 @@ button {
     right: 5%;
   }
 
-
   /* Banner */
 
   .project-banner-section {
@@ -1761,7 +1666,6 @@ button {
     border-radius: 13px;
   }
 
-
   /* Common sections */
 
   .section {
@@ -1769,7 +1673,7 @@ button {
   }
 
   .section-kicker {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 1.6px;
   }
 
@@ -1782,7 +1686,7 @@ button {
     width: 23px;
     height: 23px;
     flex-basis: 23px;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .section-kicker-line {
@@ -1796,19 +1700,16 @@ button {
   }
 
   .section-desc {
-    font-size: 12px;
-    line-height: 1.85;
+    font-size: 16px;
   }
 
   .intro-section {
     padding-top: 65px;
   }
 
-
   /* Problem cards */
 
   .problem-grid {
-    grid-template-columns: minmax(0, 1fr);
     gap: 12px;
     margin-top: 30px;
   }
@@ -1820,72 +1721,37 @@ button {
 
   .problem-card h3 {
     margin: 14px 0 8px;
-    font-size: 14px;
   }
-
-  .problem-card p {
-    font-size: 11px;
-  }
-
 
   /* Value */
 
   .value-highlight {
     padding: 13px 14px;
-    font-size: 11px;
   }
-
 
   /* Features */
 
-  .section-heading {
-    display: block;
-    margin-bottom: 28px;
-  }
-
-  .side-desc {
-    max-width: 100%;
-    margin-top: 12px;
-  }
-
   .feature-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     gap: 11px;
+    margin-top: 28px;
   }
 
   .feature-card {
-    min-height: 205px;
-    padding: 18px 15px 32px;
+    min-height: 0;
+    padding: 22px 22px 24px;
     border-radius: 15px;
   }
 
-  .feature-icon {
-    width: 38px;
-    height: 38px;
-    font-size: 20px;
-  }
-
-  .feature-card h3 {
-    margin: 15px 0 8px;
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-  .feature-card p {
-    font-size: 10px;
-    line-height: 1.75;
-  }
-
   .feature-number {
-    right: 11px;
-    font-size: 29px;
+    top: 18px;
+    right: 22px;
+    bottom: auto;
   }
-
 
   /* How it works */
 
   .role-grid {
-    grid-template-columns: minmax(0, 1fr);
     gap: 15px;
     margin-top: 30px;
   }
@@ -1895,7 +1761,6 @@ button {
     flex-direction: column;
     align-items: stretch;
     gap: 18px;
-    min-height: auto;
     padding: 23px;
     border-radius: 19px;
   }
@@ -1905,7 +1770,7 @@ button {
   }
 
   .role-label {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
   }
 
@@ -1921,18 +1786,6 @@ button {
     margin: 18px 0 0;
   }
 
-  .role-card li {
-    gap: 9px;
-    font-size: 11px;
-    line-height: 1.65;
-  }
-
-  .role-card li > span:first-child {
-    width: 22px;
-    height: 22px;
-    flex-basis: 22px;
-  }
-
   .role-media {
     width: 100%;
     justify-content: center;
@@ -1946,48 +1799,40 @@ button {
     margin: 0 auto;
   }
 
-
   /* App preview */
 
   .screens {
     display: flex;
     gap: 14px;
     overflow-x: auto;
-    justify-content: flex-start;
     padding: 5px 2px 17px;
     scroll-snap-type: x mandatory;
     overscroll-behavior-x: contain;
     scrollbar-width: thin;
     scrollbar-color: #c7d8ee transparent;
+    margin-top: 28px;
   }
 
   .screen-card {
-    flex: 0 0 43%;
+    flex: 0 0 180px;
     scroll-snap-align: start;
   }
 
   .screen-image {
-    min-height: 230px;
-    padding: 0;
-    border: 0;
-    border-radius: 14px;
-    background: transparent;
+    height: 470px;
   }
 
   .screen-image img {
-    max-height: 215px;
+    width: 160px;
   }
 
   .screen-card figcaption {
     margin-top: 10px;
-    font-size: 10px;
   }
 
   .preview-note {
-    font-size: 9px;
     line-height: 1.7;
   }
-
 
   /* CTA */
 
@@ -1996,9 +1841,6 @@ button {
   }
 
   .cta-box {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
     gap: 25px;
     padding: 30px 23px;
     border-radius: 20px;
@@ -2009,21 +1851,17 @@ button {
   }
 
   .cta-box p:not(.section-kicker) {
-    font-size: 11px;
-    line-height: 1.8;
+    font-size: 15px;
   }
 
   .cta-actions {
-    width: 100%;
-    min-width: 0;
     gap: 10px;
+    flex-direction: column;
   }
 
   .cta-actions .button {
     min-height: 45px;
-    font-size: 11px;
   }
-
 
   /* Footer */
 
@@ -2032,7 +1870,6 @@ button {
   }
 
   .footer-inner {
-    display: flex;
     flex-wrap: wrap;
     gap: 13px;
   }
@@ -2045,20 +1882,15 @@ button {
     order: 3;
     flex-basis: 100%;
     margin: 0;
-    font-size: 10px;
-  }
-
-  .footer-inner > a:last-child {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .copyright {
     margin-top: 20px;
     padding-top: 13px;
-    font-size: 9px;
+    font-size: 12px;
   }
 }
-
 
 /* ========================================
    SMALL MOBILE — 380px
@@ -2100,14 +1932,6 @@ button {
     max-width: 155px;
   }
 
-  .feature-card {
-    padding-inline: 12px;
-  }
-
-  .feature-card h3 {
-    font-size: 11px;
-  }
-
   .role-card {
     padding: 19px;
   }
@@ -2115,12 +1939,7 @@ button {
   .role-card h3 {
     font-size: 21px;
   }
-
-  .screen-card {
-    flex-basis: 48%;
-  }
 }
-
 
 /* ========================================
    ACCESSIBILITY
@@ -2138,6 +1957,6 @@ button {
 
   .js-reveal .reveal {
     opacity: 1;
-    transform: none;
+    translate: none;
   }
 }
